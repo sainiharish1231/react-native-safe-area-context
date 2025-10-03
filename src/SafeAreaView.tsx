@@ -10,7 +10,7 @@ import NativeSafeAreaView from './specs/NativeSafeAreaView';
 import { useMemo } from 'react';
 
 const defaultEdges: Record<Edge, EdgeMode> = {
-  top: 'additive',
+  top: 'off',
   left: 'additive',
   bottom: 'additive',
   right: 'additive',
